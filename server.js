@@ -19,7 +19,7 @@ app.use(cors({ origin: 'http://localhost:8100' }));
 → localhost:3000/items/ (this returns array of objects)
 → localhost:3000/items/:id (this returns single object)
 */
-app.use('/items', itemsRouter);
+app.use('/students', itemsRouter);
 
 // default URL to API
 app.use('/', function (req, res) {
