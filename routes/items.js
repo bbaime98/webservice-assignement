@@ -4,7 +4,7 @@ const express = require('express');
 const router = express.Router();
 // create a JSON data array
 const data = [
-    { id: 23330, firstName: 'Bien', lastName: 'Aime', age: 24, gender: 'Male', academicYear: 2021, createdOn: new Date() },
+    { id: 23330, firstName: 'Bien', lastName: 'Aime', age: 24, gender: 'Male', academicYear: 2019, createdOn: new Date() },
     { id: 22220, firstName: 'Eric', lastName: 'Arthur', age: 20, gender: 'Female', academicYear: 2021, createdOn: new Date() },
 ];
 
